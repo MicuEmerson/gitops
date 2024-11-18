@@ -19,6 +19,6 @@ spec:
       containers:
         - name: nginx
           imagePullPolicy: Always
-          image: micuemerson/nginx:v0.1.1
+          image: micuemerson/nginx:v0.1.2
           ports:
             - containerPort: 80
